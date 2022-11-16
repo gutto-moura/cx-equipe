@@ -102,6 +102,7 @@ main{
 }
 
 
+
 .canais-container{
   width: 60vw;
   height: 500px;
@@ -110,17 +111,27 @@ main{
   justify-content: center;
   margin-top: 50px;
 }
-.canais-container h2{
-  color: #08193f;
+.titulos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-.canais-container .linha{
+.titulos h2{
+  color: #08193f;
+  font-size: 50px;
+}
+.titulos .linha{
   background-color: #08193f;
+  height: 4px;
 }
 .canais-itens{
-  width: 500px;
+  width: 80%;
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
+
 }
 .canais-container img{
   width: 40px;
@@ -129,23 +140,37 @@ main{
 .canais-nome{
   display: flex;
   align-items:center;
-  justify-content: start;
+  justify-content: space-around;
   margin-bottom: 10px;
-  font-size: 20px;
+  width: 100%;
+  font-size: 21px;
 }
-
+.canais-icone{
+  display: flex;
+  
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 .canais-item{
-  width: 150px;
-  margin-left: 25px;
-  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  width: 250px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
 }
 .canais-nome h4{
   color: #08193f;
+  margin-left: -20px;
 }
 .canais-descricao{
   font-size: 13px;
   line-height: 17px;
   color: #4169E1;
+  width: 100%;
 }
 .canais-img{
   width: 40vw;
@@ -159,16 +184,17 @@ main{
   margin-top: 50px;
   margin-left: -70px;
 }
-i{
+.ph-check-square-offset-light{
   font-size: 30px;
-  margin-left: 10px;
+  margin-bottom: 5px;
   color: #08193f;
+  font-weight: bold;
+  text-align: start;
 }
 .linha-canais{
   width: 40px;
   height: 2px;
   background-color: #4169E1;
-  margin-right: 10px;
 }
 
 
