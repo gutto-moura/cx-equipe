@@ -42,7 +42,7 @@ main{
 
 
 .sobrenos-container{
-  width: 100%;
+  width: 50vw;
   background-color: #08193f;
   height: 650px;
   color: #37a9f2;
@@ -108,14 +108,15 @@ main{
   height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  text-align: start;
   margin-top: 50px;
 }
 .titulos{
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-bottom: 50px;
 }
 .titulos h2{
@@ -124,7 +125,7 @@ main{
 }
 .titulos .linha{
   background-color: #08193f;
-  height: 4px;
+  height: 5px;
 }
 .canais-itens{
   width: 80%;
@@ -133,6 +134,7 @@ main{
   flex-wrap: wrap;
 
 }
+
 .canais-container img{
   width: 40px;
 
@@ -157,7 +159,6 @@ main{
   justify-content: start;
   align-items: start;
   width: 250px;
-  margin-left: 10px;
   margin-bottom: 30px;
   padding: 10px;
 }
@@ -176,7 +177,11 @@ main{
   font-size: 13px;
   line-height: 17px;
   color: #4169E1;
-  width: 100%;
+  padding: 0 20px;
+  text-align: center;
+}
+.canais-descricao span{
+  line-height: 20px;
 }
 .canais-img{
   width: 40vw;
@@ -212,7 +217,7 @@ main{
   justify-content: center;
 }
 .time-text{
-  margin-top: 150px;
+  margin-top: 50px;
   margin-right: 300px;
 }
 .time-text h2{
