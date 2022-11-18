@@ -37,7 +37,25 @@ main{
   background-size: cover;
   background-repeat: no-repeat;
 }
+@media only screen and (max-width: 769px) {
+  .titulo-home{
+    width: 100vw;
+    margin: 70px 0;
+  }
 
+  .imagem-home{
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 490px) {
+  .titulo-home h1{
+    font-size: 34px;
+  }
+  .titulo-home span{
+    font-size: 19px;
+  }
+}
 
 
 
@@ -100,7 +118,14 @@ main{
   margin-left: -70px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
+@media only screen and (max-width: 769px) {
+  .sobrenos-img{
+    display: none;
+  }
+  .sobrenos-container{
+    width: 100vw;
+  }
+}
 
 
 .canais-container{
@@ -207,7 +232,15 @@ main{
   height: 2px;
   background-color: #4169E1;
 }
-
+@media only screen and (max-width: 769px) {
+  .canais-container{
+    width: 100vw;
+    height: 750px;
+  }
+  .canais-img{
+    display: none;
+  }
+}
 
 
 .section-time{
@@ -215,6 +248,7 @@ main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 .time-text{
   margin-top: 50px;
@@ -227,7 +261,7 @@ main{
   background-color: #08193f;
 }
 .container-time{
-  width: 100%;
+  width: 90%;
   height: 700px;
   display: flex;
   justify-content: space-between;
@@ -235,19 +269,19 @@ main{
   flex-wrap: wrap;
 }
 .pessoas-equipe{
-  margin: 30px;
+  margin: 20px 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   height: 280px;
 }
 .time-img{
-  width: 250px;
-}
-.time-img img{
   width: 100%;
 }
+.time-img img{
+  max-width: 100%;
+}
 .container-img{
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: 200px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -303,4 +337,14 @@ main{
 }
 .descricao-time span{
   font-size: 12px;
+}
+@media only screen and (max-width: 769px) {
+  .pessoas-equipe{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  .container-time{
+    width: 80%;
+  }
 }
