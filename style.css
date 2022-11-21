@@ -48,14 +48,15 @@ main{
   }
 
 }
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 550px) {
   .titulo-home h1{
-    font-size: 34px;
+    font-size: 40px;
   }
   .titulo-home span{
-    font-size: 19px;
+    font-size: 23px;
   }
 }
+
 
 
 
@@ -136,7 +137,16 @@ main{
     line-height: 35px;
   }
 }
-
+@media only screen and (max-width: 550px) {
+  .sobrenos-text h2{
+    font-size: 60px;
+    margin-top: 60px;
+  }
+  .sobrenos-descricao span{
+    font-size: 19px;
+    line-height: 35px;
+  }
+}
 
 .canais-container{
   width: 60vw;
@@ -246,6 +256,7 @@ main{
   .canais-container{
     width: 100vw;
     height: 750px;
+    margin-bottom: 70px;
   }
   .titulos h2{
     font-size: 70px;
@@ -271,6 +282,14 @@ main{
   }
   .linha-canais{
     height: 3px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .titulos h2{
+    font-size: 55px;
+  }
+  .titulos .linha{
+    height: 5px;
   }
 }
 
@@ -303,7 +322,7 @@ main{
 .pessoas-equipe{
   margin: 20px 5px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  height: 320px;
+  height: 250px;
 }
 
 .container-img{
@@ -369,10 +388,14 @@ main{
   font-size: 12px;
 }
 @media only screen and (max-width: 769px) {
+  .section-time{
+    box-shadow:inset rgba(0, 0, 0, 0.1) 0px 10px 36px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;
+  }
   .container-time{
     width: 80vw;
     justify-content: center;
     align-items: center;
+
   }
   .pessoas-equipe{
     margin-bottom: 20px;
@@ -389,5 +412,14 @@ main{
   }
   .ph-circle-wavy-check{
     font-size: 70px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .pessoas-equipe{
+    height: 380px;
+  }
+  .container-img{
+    width: 340px;
+    height: 340px;
   }
 }
