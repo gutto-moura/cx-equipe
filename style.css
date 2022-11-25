@@ -188,7 +188,6 @@ main{
   display: flex;
   align-items:center;
   justify-content: space-around;
-  margin-bottom: 10px;
   width: 100%;
   font-size: 21px;
 }
@@ -302,7 +301,7 @@ main{
   margin-top: 50px;
 }
 .time-text{
-  margin-top: 50px;
+  margin-top: 20px;
   margin-right: 300px;
 }
 .time-text h2{
@@ -313,24 +312,26 @@ main{
 }
 .container-time{
   width: 90%;
-  height: 700px;
+  height: 800px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 .pessoas-equipe{
-  margin: 20px 5px;
+  margin: 0 20px 10px 0;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   height: 250px;
+  border-radius: 10px 10px 0 0;
 }
 
 .container-img{
-  width: 250px;
-  height: 250px;
+  width: 270px;
+  height: 270px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  border-radius: 10px 10px 0 0;
 }
 .container-img img{
   width: 100%;
@@ -355,7 +356,7 @@ main{
 	transition: 0.9s ease;
   text-align: center;
   padding: 10px;
-  
+
 }
 .time-descricao span{
   line-height: 25px;
@@ -376,7 +377,8 @@ main{
   margin-top: -4px;
   color: #fff;
   margin-bottom: 20px;
-
+  border-radius: 0 0 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .time-nome h4{
   font-size: 14px;
@@ -389,7 +391,7 @@ main{
 }
 @media only screen and (max-width: 769px) {
   .section-time{
-    box-shadow:inset rgba(0, 0, 0, 0.1) 0px 10px 36px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;
+    box-shadow: inset rgba(0, 0, 0, 0.1) 0px 10px 36px 0px, rgba(0, 0, 0, 0.01) 0px 0px 0px 1px;
   }
   .container-time{
     width: 80vw;
