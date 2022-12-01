@@ -292,7 +292,7 @@ main{
   }
 }
 
-
+/* NOSSO TIME */
 .section-time{
   display: flex;
   flex-direction: column;
@@ -300,23 +300,17 @@ main{
   justify-content: center;
   margin-top: 50px;
 }
-.time-text{
-  margin-top: 20px;
-  margin-right: 300px;
-}
-.time-text h2{
-  color: #08193f;
-}
-.time-text .linha{
-  background-color: #08193f;
-}
+.time-text{ margin-right: 300px; }
+.time-text h2{ color: #08193f; }
+.time-text .linha{ background-color: #08193f; }
 .container-time{
   width: 90%;
-  height: 800px;
+  height: 700px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 .pessoas-equipe{
   margin: 0 20px 10px 0;
@@ -424,4 +418,15 @@ main{
     width: 340px;
     height: 340px;
   }
+}
+footer{
+  height: 70px;
+  background-color: #08193f;
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  color: #fff;
 }
