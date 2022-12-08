@@ -56,6 +56,14 @@ main{
     font-size: 23px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .titulo-home h1{
+    font-size: 27px;
+  }
+  .titulo-home span{
+    font-size: 18px;
+  }
+}
 
 
 
@@ -144,6 +152,16 @@ main{
   }
   .sobrenos-descricao span{
     font-size: 19px;
+    line-height: 35px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .sobrenos-text h2{
+    font-size: 50px;
+    margin-top: 60px;
+  }
+  .sobrenos-descricao span{
+    font-size: 16px;
     line-height: 35px;
   }
 }
@@ -291,6 +309,13 @@ main{
     height: 5px;
   }
 }
+@media only screen and (max-width: 320px) {
+  .titulos h2{
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+
 
 /* NOSSO TIME */
 .section-time{
@@ -418,6 +443,9 @@ main{
     width: 340px;
     height: 340px;
   }
+}
+@media only screen and (max-width: 320px) {
+  
 }
 footer{
   height: 70px;
